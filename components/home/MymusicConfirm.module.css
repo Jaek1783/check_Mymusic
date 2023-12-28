@@ -1,0 +1,163 @@
+.container {
+  padding:10px;
+  max-width:1200px;
+  margin:0 auto;
+  min-width:800px;
+
+}
+.title {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-bottom:4rem;
+}
+.title h1 {
+  padding:20px 0;
+}
+.table {
+  width:100%;
+  border:0.5px solid #000;
+  border-spacing:0;
+  color:#fff;
+
+}
+.table thead{
+  width:100%;
+
+}
+.table thead tr{
+  background-color:Orange;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 20px;
+}
+.contents {
+  color:#000;
+  padding:10px;
+}
+.quest{
+  display:flex;
+  flex-direction:column;
+  text-align:left;
+  padding:10px;
+}
+.quest>th {
+  padding:10px;
+  background:#edfcff;
+  margin-bottom:1rem;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction : column;
+}
+.inputBox label {
+  font-weight:500;
+  display:flex;
+  align-items:flex-start;
+  margin-bottom:1rem;
+}
+.inputBox input {
+  margin-left: 3rem;
+  margin-right:1rem;
+  margin-bottom:1rem;
+  margin-top:4px;
+}
+.red{
+  color:red;
+  font-weight:bold;
+  padding:0 5px;
+}
+.red>span{
+  color:#000;
+  padding-left:5px;
+}
+.blue {
+  color:blue;
+  margin:0 10px;
+}
+.quest2 th:last-child{
+  display:flex;
+  flex-direction:column;
+  text-align:left;
+  padding:10px;
+}
+.quest2_1>th {
+  display:flex;
+  flex-direction:column;
+}
+.quest2_1>th>span {
+  font-weight:300;
+  font-size:.8rem;
+}
+.info {
+  display:flex;
+  flex-direction:column;
+  padding:10px;
+}
+.info>th {
+  padding-bottom:1rem;
+}
+.btn {
+  padding:10px;
+  background:#edfcff;
+  margin :10px 0;
+  text-align:center;
+}
+.btn button{
+  border:none;
+  padding:10px;
+  margin:0 10px;
+}
+.answer {
+  width:100%;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position:fixed;
+  /* z-index : 9999; */
+  background: rgba(0,0,0,0.3);
+}
+.answer>div {
+  width:500px;
+  background:#fff;
+  position:absolute;
+  border-top:3px solid #000;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+.answer h2 {
+  padding:20px 0;
+}
+.answer div>div {
+  width:100%;
+  background:#edfcff;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  padding:20px 0;
+}
+.answer button {
+  padding:10px 40px;
+  margin:20px 0;
+  border:none;
+  background:orange;
+  color:#fff;
+  font-size:1rem;
+  cursor:pointer;
+}
+.kakao {
+  background : #faed05;
+}
+.reset {
+  cursor:pointer;
+  background:orange;
+}
